@@ -1,6 +1,10 @@
+.xbox.white {
+    background: url(base-white.png);
+}
+
 .xbox .stick {
     position: absolute;
-    background: url(https://adam10603.github.io/ControllerOverlay/sticks.png);
+    background: url(sticks.png);
     background-position: -85px 0;
     height: 83px;
     width: 83px;
@@ -8,7 +12,7 @@
 
 .xbox .button {
     position: absolute;
-    background: url(https://adam10603.github.io/ControllerOverlay/abxy.png);
+    background: url(abxy.png);
     width: 48px;
     height: 48px;
 }
