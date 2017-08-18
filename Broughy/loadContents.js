@@ -11,7 +11,7 @@ function getQueryParams(qs) {
 
 function loadContents() {
     var query   = getQueryParams(document.location.search);
-    var baseURL = "https://gamepadviewer.com/?p=1&s=0&smeter=1&nocurve=1&sc=_PARAM_SC_&dz=_PARAM_DZ_&delay=_PARAM_DELAY_?editcss=https://adam10603.github.io/ControllerOverlayTesting/Broughy/controllerStyle.css";
+    var baseURL = "https://gamepadviewer.com/?p=1&s=0&smeter=1&nocurve=1&sc=_PARAM_SC_&dz=_PARAM_DZ_&delay=_PARAM_DELAY_?editcss=" + window.location.href + "controllerStyle.css";
     var dz      = 0.12;
     var sc      = 1.0;
     var delay   = 0;
@@ -41,6 +41,12 @@ function loadContents() {
     }, 2000);
 }
 
-window.alert(window.location.href);
+var url = window.location.href;
+
+if (url.charAt(url.length - 1) != '/') {
+    url = url + '/';
+}
+
+window.alert(url);
 
 window.onload = loadContents;
