@@ -16,6 +16,10 @@ function loadContents() {
 
     var currentLocation = window.location.href;
 
+    currentLocation = currentLocation.split("#loaded").pop();
+
+    window.alert(currentLocation);
+
     if (currentLocation.charAt(currentLocation.length - 1) != '/') {
         currentLocation = currentLocation + '/';
     }
