@@ -11,7 +11,7 @@ function getQueryParams(qs) {
 
 function loadContents() {
     var query   = getQueryParams(document.location.search);
-    var baseURL = "https://gamepadviewer.com/?p=1&s=0&smeter=1&nocurve=1&sc=_PARAM_SC_&dz=_PARAM_DZ_&delay=_PARAM_DELAY_?editcss=https://adam10603.github.io/ControllerOverlay/controllerStyle.css";
+    var baseURL = "https://gamepadviewer.com/?p=1&s=0&smeter=1&nocurve=1&sc=_PARAM_SC_&dz=_PARAM_DZ_&delay=_PARAM_DELAY_?editcss=https://adam10603.github.io/ControllerOverlayTesting/Broughy/controllerStyle.css";
     var dz      = 0.12;
     var sc      = 1.0;
     var delay   = 0;
