@@ -41,4 +41,6 @@ function loadContents() {
     }, 2000);
 }
 
+window.alert(window.location.href);
+
 window.onload = loadContents;
