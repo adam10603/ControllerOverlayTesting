@@ -45,6 +45,19 @@
     opacity: 0;
 }
 
+.xbox .back.pressed, .xbox .start.pressed {
+    opacity: 1;
+}
+
+.xbox .back {
+    float: left;
+}
+
+.xbox .start {
+    background-position: 33px 0px;
+    float: right;
+}
+
 .xbox .stick {
     position: absolute;
     background: url(sticks.png);
