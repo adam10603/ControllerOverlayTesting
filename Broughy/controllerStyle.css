@@ -9,6 +9,18 @@
     opacity: 0;
 }
 
+.xbox .trigger.left {
+    filter: sepia(100%) hue-rotate(314deg) contrast(130%) saturate(1000%);
+    float: left;
+    background-position: 0 0;
+}
+
+.xbox .trigger.right {
+    filter: sepia(100%) hue-rotate(32deg) saturate(1200%);
+    float: right;
+    transform: rotateY(180deg);
+}
+
 .xbox .bumper {
     width: 170px;
     height: 61px;
