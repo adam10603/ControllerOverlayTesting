@@ -54,6 +54,14 @@
     opacity: 1;
 }
 
+.xbox .dpad {
+    position: absolute;
+    width: 110px;
+    height: 111px;
+    top: 345px;
+    left: 223px;
+}
+
 .xbox .face {
     background: url(dpad.png);
     position: absolute;
