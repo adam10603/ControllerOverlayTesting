@@ -24,7 +24,7 @@ function loadContents() {
 
     //var query   = getQueryParams(document.location.search);
 
-    var baseURL = "https://gamepadviewer.com/?p=1&s=0&smeter=1&nocurve=1&soffset=28&sc=_PARAM_SC_&dz=_PARAM_DZ_&delay=_PARAM_DELAY_?editcss=" + currentLocation + "controllerStyle.css";
+    var baseURL = "https://gamepadviewer.com/?p=1&s=0&smeter=1&nocurve=0&soffset=28&sc=_PARAM_SC_&dz=_PARAM_DZ_&delay=_PARAM_DELAY_?editcss=" + currentLocation + "controllerStyle.css";
 
     var dz      = 0.12;
     var sc      = 1.0;
