@@ -28,8 +28,8 @@
 
 .xbox .back, .xbox .start {
     background: url(start-select.png);
-    width: 33px;
-    height: 33px;
+    width: 33px !important;
+    height: 33px !important;
     opacity: 0;
 }
 
