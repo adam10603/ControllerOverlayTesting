@@ -2,6 +2,37 @@
     background: url(base-white.png);
 }
 
+.xbox .trigger {
+    width: 88px;
+    height: 121px;
+    background: url(trigger.png);
+    opacity: 0;
+}
+
+.xbox .bumper {
+    width: 170px;
+    height: 61px;
+    background: url(bumper.png);
+    opacity: 0;
+}
+
+.xbox .quadrant {
+    position: absolute;
+    background: url(quadrant.png);
+    height: 45px;
+    width: 45px;
+    top: 258px;
+    left: 354px;
+    z-index: 0;
+}
+
+.xbox .back, .xbox .start {
+    background: url(start-select.png);
+    width: 33px;
+    height: 33px;
+    opacity: 0;
+}
+
 .xbox .stick {
     position: absolute;
     background: url(sticks.png);
@@ -21,6 +52,12 @@
     background-position-y: -48px;
     margin-top: 0px !important;
     opacity: 1;
+}
+
+.xbox .face {
+    background: url(dpad.png);
+    position: absolute;
+    opacity: 0;
 }
 
 .xbox .a {
